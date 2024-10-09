@@ -1,0 +1,16 @@
+header {
+  padding: 10px 20px 15px;
+  /* margin-bottom: 30px; */
+}
+
+nav a {
+  text-decoration-color: transparent;
+  color: #1134B2;
+  padding: 0 15px;
+}
+
+nav a:hover {
+  text-decoration-color: #8a2be2;
+  /* color: #8a2be2; */
+  color: red;
+}
