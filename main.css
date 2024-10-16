@@ -3,17 +3,16 @@
   src: url(fonts/BebasNeue-Regular.woff2);
 }
 
-
 header {
   padding: 10px 20px 15px;
   /* margin-bottom: 30px; */
   display: flex;
   align-items: center;
-
 }
-nav{
+
+nav {
   flex-grow: 1;
-  display: flex ;
+  display: flex;
   justify-content: center;
 }
 
@@ -27,7 +26,22 @@ nav a {
 
 nav a:hover {
   text-decoration-color: #8a2be2;
-  color: #8a2be2; 
+  color: #8a2be2;
+}
+
+.header-icons {
+  display: flex;
+  width: 172px;
+  justify-content: center;
+  gap: 15px;
+}
+
+.header-icons a img {
+  filter: brightness(0) saturate(100%) invert(16%) sepia(76%) saturate(3532%) hue-rotate(226deg) brightness(85%) contrast(102%);
+}
+
+.header-icons a:hover img {
+  filter: brightness(0) saturate(100%) invert(24%) sepia(100%) saturate(2079%) hue-rotate(259deg) brightness(86%) contrast(107%);
 }
 
 .header-icons {
