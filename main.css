@@ -178,6 +178,30 @@ button:hover {
   grid-column: span 4;
 }
 
+.buttons-section {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+}
+
+.buttons-section .student-name {
+  padding: 7px 10px 5px;
+  font-family: "Bebas";
+  font-size: 25px;
+  color: #fff;
+  background-color: #000;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 3px solid #000;
+}
+
+.student-name:hover {
+  background-color: #fff;
+  color: #000;
+}
+
 .info-container {
   display: flex;
   flex-direction: column;
@@ -216,4 +240,67 @@ button:hover {
 
 .info-container button {
   margin: 15px auto 0;
+}
+
+
+/* NOV CHAS */
+
+@media screen and (max-width: 768px) {
+  .post-card-container {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 15px;
+  }
+
+  .post-card-container .section-title {
+    grid-column: span 2;
+  }
+
+  .buttons-section {
+    flex-wrap: wrap;
+  }
+
+  header {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 15;
+  }
+
+  .logo {
+    order: 1;
+  }
+
+  .header-icons {
+    order: 2;
+    justify-content: flex-end;
+  }
+
+  nav {
+    order: 3;
+    width: 100%;
+    margin: 10px 0;
+    position: sticky;
+  }
+
+  main {
+    padding-top: 118px;
+  }
+
+  .student-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .student-section .section-title {
+    grid-column: span 2;
+  }
+
+  .post-card .image-container img {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header-icons {
+    width: auto;
+  }
 }
