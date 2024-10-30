@@ -32,7 +32,7 @@ nav a:hover {
 .header-icons {
   display: flex;
   width: 172px;
-  justify-content: center;
+  justify-content: flex-end;
   gap: 15px;
 }
 
@@ -104,11 +104,13 @@ button {
   cursor: pointer;
   font-family: "Bebas";
   font-size: 25px;
+  transition: all 0.5s ease-in;
 }
 
 button:hover {
   background-color: #000;
   color: #fff;
+  transition: all 0.5s ease-out;
 }
 
 .exercises-container {
@@ -172,6 +174,7 @@ button:hover {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 15px;
+  margin: 40px;
 }
 
 .post-card-container .section-title {
@@ -195,11 +198,13 @@ button:hover {
   border-radius: 5px;
   cursor: pointer;
   border: 3px solid #000;
+  transition: all 1s cubic-bezier(.39, .5, .15, 1.36);
 }
 
 .student-name:hover {
   background-color: #fff;
   color: #000;
+  transition: all 1s cubic-bezier(.39, .5, .15, 1.36);
 }
 
 .info-container {
@@ -242,6 +247,87 @@ button:hover {
   margin: 15px auto 0;
 }
 
+.student-footer-buttons {
+  display: flex;
+  gap: 30px;
+  margin: 40px auto;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.btn-container {
+  height: 80px;
+  width: 230px;
+  position: relative;
+}
+
+.btn {
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: .6s;
+  transition-timing-function: ease;
+}
+
+.student-footer-btn {
+  color: #1134B2;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 16px;
+  width: 200px;
+  position: relative;
+  padding: 15px 60px;
+  text-decoration: none;
+  transition: all .6s ease-in;
+  background-color: transparent;
+  outline: none;
+  border: 1.5px solid transparent;
+}
+
+.student-footer-btn:hover {
+  font-weight: 700;
+}
+
+.student-footer-btn::before {
+  border: 1.5px solid transparent;
+  top: 0;
+  content: "";
+  position: absolute;
+  transition: all .6s ease-in-out;
+  width: 0;
+  left: 15%;
+}
+
+.student-footer-btn:hover::before {
+  border-color: #1134B2;
+  transition: width .6s ease-in-out;
+  width: 70%;
+}
+
+.student-footer-btn::after {
+  border: 1.5px solid transparent;
+  bottom: 0;
+  content: "";
+  position: absolute;
+  transition: all .6s ease-in-out;
+  width: 0;
+  right: 15%;
+}
+
+.student-footer-btn:hover::after {
+  border-color: #1134B2;
+  transition: width .6s ease-in-out;
+  width: 70%;
+}
+
+.student-footer-btn img {
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
 
 /* NOV CHAS */
 
