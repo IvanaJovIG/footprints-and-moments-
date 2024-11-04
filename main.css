@@ -273,6 +273,7 @@ button:hover {
   flex-wrap: wrap;
 }
 
+
 .btn-container {
   height: 80px;
   width: 230px;
@@ -285,6 +286,7 @@ button:hover {
   transition-duration: .6s;
   transition-timing-function: ease;
 }
+
 
 .student-footer-btn {
   color: #1134B2;
@@ -303,7 +305,9 @@ button:hover {
 }
 
 .student-footer-btn:hover {
-  font-weight: 700;
+font-weight: 700;
+transition: all .6s ease-in-out;
+
 }
 
 .student-footer-btn::before {
@@ -345,6 +349,7 @@ button:hover {
   top: 0;
   width: 100%;
 }
+
 
 .student-footer-buttons {
   display: flex;
@@ -435,6 +440,7 @@ button:hover {
   .post-card-container {
     grid-template-columns: repeat(2, 1fr);
     padding: 0 15px;
+
   }
 
   .post-card-container .section-title {
@@ -495,7 +501,35 @@ button:hover {
 
 /* Student Homework */
 /* Marijana */
-.marijana-footer {}
+
+.marijana-footer {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(141, 236, 205); 
+  padding: 15px 0;
+  text-align: center; 
+  color: #161616; 
+  font-size: 12px;
+  font-style: italic;
+  font-family: "Montserrat";
+}
+.logo-img {
+  padding-bottom: 20px;
+}
+
+.footer-text {
+  position: center;
+  padding-top: 20px;
+
+}
+  
+.marijana-footer p {
+  margin: 0;
+}
+
+
+
+
 
 /* Stefan */
 .upper-footer {
