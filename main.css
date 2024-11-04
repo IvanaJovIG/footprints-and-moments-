@@ -264,6 +264,87 @@ button:hover {
   margin: 15px auto 0;
 }
 
+.student-footer-buttons {
+  display: flex;
+  gap: 30px;
+  margin: 40px auto;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.btn-container {
+  height: 80px;
+  width: 230px;
+  position: relative;
+}
+
+.btn {
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: .6s;
+  transition-timing-function: ease;
+}
+
+.student-footer-btn {
+  color: #1134B2;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 16px;
+  width: 200px;
+  position: relative;
+  padding: 15px 60px;
+  text-decoration: none;
+  transition: all .6s ease-in;
+  background-color: transparent;
+  outline: none;
+  border: 1.5px solid transparent;
+}
+
+.student-footer-btn:hover {
+  font-weight: 700;
+}
+
+.student-footer-btn::before {
+  border: 1.5px solid transparent;
+  top: 0;
+  content: "";
+  position: absolute;
+  transition: all .6s ease-in-out;
+  width: 0;
+  left: 15%;
+}
+
+.student-footer-btn:hover::before {
+  border-color: #1134B2;
+  transition: width .6s ease-in-out;
+  width: 70%;
+}
+
+.student-footer-btn::after {
+  border: 1.5px solid transparent;
+  bottom: 0;
+  content: "";
+  position: absolute;
+  transition: all .6s ease-in-out;
+  width: 0;
+  right: 15%;
+}
+
+.student-footer-btn:hover::after {
+  border-color: #1134B2;
+  transition: width .6s ease-in-out;
+  width: 70%;
+}
+
+.student-footer-btn img {
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
 
 .student-footer-buttons {
   display: flex;
@@ -417,7 +498,141 @@ button:hover {
 .marijana-footer {}
 
 /* Stefan */
-.stefan-footer {}
+.upper-footer {
+  display: flex;
+  background-color: #892be2e7;
+  height: fit-content;
+  padding: 15px;
+  flex-direction: column;
+  align-items: center;
+  border-top-style: solid;
+  border-color: #3b3b3b9d;
+  border-width: 7px;
+  position: relative;
+  text-align: center;
+}
+
+.upper-footer h1 {
+  color: rgb(0, 0, 0);
+  font-family: "Bebas";
+  font-size: 35px;
+}
+
+.sub-button {
+  position: relative;
+  margin: 5px;
+  transition-duration: .6s;
+}
+
+.sub-button img {
+  height: 70px;
+}
+
+.sub-button:hover {
+  cursor: pointer;
+  transition-duration: .6s;
+  transform: scale(1.2, 1.2);
+}
+
+.lower-footer {
+  display: flex;
+  background-color: #490588e7;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+.info a {
+  font-family: "Bebas";
+  font-size: 21px;
+  color: #fff;
+  margin: 5px;
+  padding: 3px 20px 0 5px;
+  text-decoration-color: transparent;
+  transition: 1s;
+  border-right: 1px solid #fff;
+}
+
+.info a:hover {
+  cursor: pointer;
+  color: #00fae5;
+  transition: 1s;
+}
+
+.logo-container {
+  display: flex;
+  width: 250px;
+  margin: 20px 0px;
+  align-items: center;
+}
+
+.fb-logo {
+  display: flex;
+  margin: 0px 15px;
+  width: 50px;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  transition-duration: 0.6s;
+}
+
+.fb-logo img {
+  width: 100%;
+  height: auto;
+}
+
+.fb-logo:hover {
+  cursor: pointer;
+  transition-duration: .6s;
+  transform: scale(1.2, 1.2);
+}
+
+.insta-logo {
+  display: flex;
+  margin: 0px 15px;
+  width: 50px;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  transition-duration: 0.6s;
+}
+
+.insta-logo img {
+  width: 100%;
+  height: auto;
+}
+
+.insta-logo:hover {
+  cursor: pointer;
+  transition-duration: .6s;
+  transform: scale(1.2, 1.2);
+}
+
+.twitter-logo {
+  display: flex;
+  margin: 0px 15px;
+  width: 50px;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  transition-duration: .6s;
+}
+
+.twitter-logo img {
+  width: 100%;
+  height: auto;
+}
+
+.twitter-logo:hover {
+  cursor: pointer;
+  transition-duration: .6s;
+  transform: scale(1.2, 1.2);
+}
 
 /* Veronika */
 
