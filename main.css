@@ -215,13 +215,13 @@ button:hover {
   border-radius: 5px;
   cursor: pointer;
   border: 3px solid #000;
-  transition:  all 0.8s cubic-bezier(.31, 1.11, .41, -0.08);
+  transition: all 0.8s cubic-bezier(.31, 1.11, .41, -0.08);
 }
 
 .student-name:hover {
   background-color: #fff;
   color: #000;
-  transition:  all 0.8s cubic-bezier(.31, 1.11, .41, -0.08);
+  transition: all 0.8s cubic-bezier(.31, 1.11, .41, -0.08);
 }
 
 .info-container {
@@ -290,10 +290,10 @@ button:hover {
 .student-footer-btn {
   color: #1134B2;
   font-family: "Montserrat";
-  text-transform:  uppercase;
+  text-transform: uppercase;
   cursor: pointer;
   font-size: 16px;
-  width:  200px;
+  width: 200px;
   position: relative;
   padding: 15px 60px;
   text-decoration: none;
@@ -301,12 +301,11 @@ button:hover {
   background-color: transparent;
   outline: none;
   border: 1.5px solid transparent;
-  
 }
 
-.student-footer-btn:hover{
+.student-footer-btn:hover {
   font-weight: 700;
-  transition: all.6s ease-in-out;
+  transition: all .6s ease-in-out;
 }
 
 .student-footer-btn::before {
@@ -314,7 +313,7 @@ button:hover {
   top: 0;
   content: "";
   position: absolute;
-  transition: all.6s ease-in-out;
+  transition: all .6s ease-in-out;
   width: 0;
   left: 15%;
 }
@@ -322,7 +321,7 @@ button:hover {
 .student-footer-btn:hover::before {
   border-color: #1134B2;
   transition: width .6s ease-in-out;
-  width:  70%;
+  width: 70%;
 }
 
 .student-footer-btn::after {
@@ -335,13 +334,11 @@ button:hover {
   right: 15%;
 }
 
-
-.student-footer-btn:hover::after{
+.student-footer-btn:hover::after {
   border-color: #1134B2;
   transition: width .6s ease-in-out;
-  width:  70%;
+  width: 70%;
 }
-  
 
 .student-footer-btn img {
   height: 50px;
@@ -350,7 +347,6 @@ button:hover {
   top: 0;
   width: 100%;
 }
-
 
 /* NOV CHAS */
 
@@ -415,12 +411,126 @@ button:hover {
 }
 
 
-/*Student Homework */
-/*Marijana*/
+
+/* Student Homework */
+/* Marijana */
 .marijana-footer {}
-/*Stefan*/
+
+/* Stefan */
 .stefan-footer {}
-/*Veronika*/
-.veronika-footer {}
-/*Simona*/
+
+/* Veronika */
+
+
+.veronika-footer {
+  background-color: #153586;
+  background-image: url(https://i.pinimg.com/originals/b4/4c/66/b44c665c88d2d14d1b4a6904bd133acb.gif);
+  padding: 50px;
+  margin-bottom: 3px;
+  display: flex;
+  background-repeat:repeat-x;
+  opacity: 0.8;
+
+  ul{
+    list-style: none;
+  } 
+
+  .footer-vt{
+    width: 100%;
+    padding:1%;
+  }
+
+  .footer-vt h4{
+    color: #b1b8d6e5;
+    font-size: 17px;
+    margin-bottom: 38px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: block;
+    position: relative;
+  }
+
+  .footer-vt h4::before{
+    content:'';
+    position: absolute;
+    bottom: -14px;
+    background-color: #1c803f;
+    height: 1.5px;
+    width: 40%;
+  }
+
+  h5{
+    color: #fffffffb;
+    font-size: 16px;
+    padding: 8px 18%;
+    text-align:start;
+    font-weight: 380;
+    text-wrap:initial;
+    text-transform: uppercase;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .footer-vt ul li a{
+    font-size: 17px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #bbbbbb;
+    display: block;
+    margin-bottom: 13px;
+    transition: all 0.8s ease-in;
+  }
+
+  .footer-vt ul li a:hover{
+    color: #f4f4f4;
+    font-size: 17px;
+    padding-left: 8px;
+    font-weight: 800;
+    cursor:grab;
+  }
+
+  .social-links a {
+    display: flex;
+    justify-content:center;
+    height: 8%;
+    width: 8%;
+    color: #747285;
+    background-color: #a4b9b9;
+    border-radius: 80%;
+    margin:11px;
+    padding: 0 35px;
+    transition: all 1.1s ease-in;
+  }
+
+  .social-links a:hover{
+    color: #9ea0a2;
+    background-color: #d0d0d0;
+    font-weight: 80;
+    cursor:grab;
+  }
+
+h6 {
+    color: #2c915dfb;
+    background-color: transparent;
+    position: absolute;
+    font-size: small;
+    padding-top: 20%;
+}
+
+  @media(max-width: 800px){
+    .footer-vt{
+      width: 75%;
+      margin-bottom: 45px;
+  }
+  }
+  @media(max-width: 600px){
+    .footer-vt{
+      width: 100%;
+  }
+  }
+
+
+}
+
+/* Simona */
 .simona-footer {}
