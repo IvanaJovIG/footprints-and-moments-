@@ -406,4 +406,61 @@ button:hover {
 .veronika-footer {}
 
 /* Simona */
-.simona-footer {}
+.simona-footer {
+  * { 
+    margin: 0;
+    padding: 0;
+
+  }
+}
+  
+ .title-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #11b28a;
+  height: 100px;
+  width: 100%;
+  position: relative;
+  text-transform: uppercase;
+  text-align: center;
+ }
+
+ .footer-icons {
+   display: flex;
+   justify-content: space-evenly;
+   text-decoration: none;
+   background-color: #11b28a;
+   color: white;
+   height: 100%;
+   width: 100%;
+   gap: 3px;
+  
+   
+   
+ }
+
+ .footer-links  {
+  background-color: #11b28a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px 20px 20px 20px;
+  gap: 180px;
+  
+
+ }
+
+ .footer-bottom {
+  display: flex;
+  justify-content: center;
+  color: aqua;
+  background-color: black;
+  height: 50px;
+  width: 100%;
+  font-size: large;
+  font-weight: 500;
+  padding: 20px 10px 5px 10px;
+ }
+  
