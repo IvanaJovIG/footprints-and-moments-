@@ -481,7 +481,141 @@ button:hover {
 .marijana-footer {}
 
 /* Stefan */
-.stefan-footer {}
+.upper-footer {
+  display: flex;
+  background-color: #892be2e7;
+  height: fit-content;
+  padding: 15px;
+  flex-direction: column;
+  align-items: center;
+  border-top-style: solid;
+  border-color: #3b3b3b9d;
+  border-width: 7px;
+  position: relative;
+  text-align: center;
+}
+
+.upper-footer h1 {
+  color: rgb(0, 0, 0);
+  font-family: "Bebas";
+  font-size: 35px;
+}
+
+.sub-button {
+  position: relative;
+  margin: 5px;
+  transition-duration: .6s;
+}
+
+.sub-button img {
+  height: 70px;
+}
+
+.sub-button:hover {
+  cursor: pointer;
+  transition-duration: .6s;
+  transform: scale(1.2, 1.2);
+}
+
+.lower-footer {
+  display: flex;
+  background-color: #490588e7;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+.info a {
+  font-family: "Bebas";
+  font-size: 21px;
+  color: #fff;
+  margin: 5px;
+  padding: 3px 20px 0 5px;
+  text-decoration-color: transparent;
+  transition: 1s;
+  border-right: 1px solid #fff;
+}
+
+.info a:hover {
+  cursor: pointer;
+  color: #00fae5;
+  transition: 1s;
+}
+
+.logo-container {
+  display: flex;
+  width: 250px;
+  margin: 20px 0px;
+  align-items: center;
+}
+
+.fb-logo {
+  display: flex;
+  margin: 0px 15px;
+  width: 50px;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  transition-duration: 0.6s;
+}
+
+.fb-logo img {
+  width: 100%;
+  height: auto;
+}
+
+.fb-logo:hover {
+  cursor: pointer;
+  transition-duration: .6s;
+  transform: scale(1.2, 1.2);
+}
+
+.insta-logo {
+  display: flex;
+  margin: 0px 15px;
+  width: 50px;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  transition-duration: 0.6s;
+}
+
+.insta-logo img {
+  width: 100%;
+  height: auto;
+}
+
+.insta-logo:hover {
+  cursor: pointer;
+  transition-duration: .6s;
+  transform: scale(1.2, 1.2);
+}
+
+.twitter-logo {
+  display: flex;
+  margin: 0px 15px;
+  width: 50px;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  transition-duration: .6s;
+}
+
+.twitter-logo img {
+  width: 100%;
+  height: auto;
+}
+
+.twitter-logo:hover {
+  cursor: pointer;
+  transition-duration: .6s;
+  transform: scale(1.2, 1.2);
+}
 
 /* Veronika */
 .veronika-footer {}
