@@ -509,25 +509,51 @@ transition: all .6s ease-in-out;
   padding: 15px 0;
   text-align: center; 
   color: #161616; 
-  font-size: 12px;
-  font-style: italic;
+  font-size: 17px;
+  
   font-family: "Montserrat";
 }
 .logo-img {
   padding-bottom: 20px;
+  font-size: 18px;
 }
 
 .footer-text {
   position: center;
   padding-top: 20px;
-
+  font-size: 13px;
 }
   
 .marijana-footer p {
   margin: 0;
 }
 
+.marijana-footer a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 10px;
+}
 
+.contact-item {
+  margin: 10px;
+}
+
+.contact {
+  margin: 10px;
+  display: block;
+}
+
+.contact div {
+  display: inline-block;
+  padding-right: 10px;  
+  display: block;
+}
+
+.contact p {
+ font-weight: bold;
+ margin-bottom: 10px;
+}
 
 
 
