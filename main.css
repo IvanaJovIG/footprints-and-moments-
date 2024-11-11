@@ -796,18 +796,15 @@ h6 {
 /* Simona */
 
 .simona-footer {
-  * { 
-    margin: 0;
-    padding: 0;
-
-  }
+  background-color:  #bde0fe;
 }
+
   
  .title-footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #11b28a;
+  background-color: #bde0fe;
   height: 100px;
   width: 100%;
   position: relative;
@@ -817,29 +814,31 @@ h6 {
 
  .footer-icons {
    display: flex;
-   justify-content: space-evenly;
-   text-decoration: none;
-   background-color: #11b28a;
+   flex-direction:row ;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   background-color: #bde0fe;
    color: white;
-   height: 100%;
-   width: 100%;
-   gap: 3px;
-  
-   
-   
- }
+   max-width: 85%;
+   margin: 0 auto;
+  }
 
- .footer-links  {
-  background-color: #11b28a;
+  .footer-icons:hover {
+    cursor: pointer;
+    color: rgb(204, 54, 54);
+  }
+
+ .footer-links ul {
+  background-color: #bde0fe;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-direction: row;
-  padding: 20px 20px 20px 20px;
-  gap: 180px;
-  
-
- }
+  padding: 30px 30px 30px 30px;
+  max-width: 85%;
+  margin: 0 auto;
+  }
 
  .footer-bottom {
   display: flex;
