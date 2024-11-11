@@ -503,6 +503,10 @@ button:hover {
 /* Marijana */
 
 .marijana-footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url('images/posledna.jpg');
+  background-size: cover; 
+  background-position: contain;
   margin: 0;
   padding: 0;
   background-color: rgb(141, 236, 205);
@@ -511,6 +515,7 @@ button:hover {
   color: #161616; 
   font-size: 17px;
   font-family: "Montserrat";
+  position: relative; 
 }
 
 .logo-img {
@@ -555,7 +560,12 @@ button:hover {
  margin-bottom: 10px;
 }
 
-
+.pozadina {
+  height: 63%;
+  position: absolute;
+  right: 11%;
+  bottom: 15%;
+}
 
 /* Stefan */
 .upper-footer {
