@@ -503,16 +503,29 @@ transition: all .6s ease-in-out;
 /* Marijana */
 
 .marijana-footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url('images/posledna.jpg');
+  background-size: cover; 
+  background-position: contain;
   margin: 0;
-  padding: 0;
-  background-color: rgb(141, 236, 205); 
+  padding: 0;  
   padding: 15px 0;
   text-align: center; 
   color: #161616; 
-  font-size: 17px;
-  
+  font-size: 17px;  
   font-family: "Montserrat";
 }
+ .pozadina {
+  position: absolute;  
+  right: 150px; 
+  display: flex;
+  width: 300px; 
+  height: auto;
+  padding-top: 20px;
+  justify-content: center;
+   
+ }
+
 .logo-img {
   padding-bottom: 20px;
   font-size: 18px;
