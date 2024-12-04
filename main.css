@@ -519,6 +519,10 @@ button:hover {
 /* Marijana */
 
 .marijana-footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url('images/posledna.jpg');
+  background-size: cover; 
+  background-position: contain;
   margin: 0;
   padding: 0;
   background-color: rgb(141, 236, 205);
@@ -527,6 +531,7 @@ button:hover {
   color: #161616;
   font-size: 17px;
   font-family: "Montserrat";
+  position: relative; 
 }
 
 .logo-img {
@@ -571,7 +576,12 @@ button:hover {
   margin-bottom: 10px;
 }
 
-
+.pozadina {
+  height: 63%;
+  position: absolute;
+  right: 11%;
+  bottom: 15%;
+}
 
 /* Stefan */
 .upper-footer {
@@ -832,6 +842,7 @@ h6 {
 /* Simona */
 
 .simona-footer {
+
   * {
     margin: 0;
     padding: 0;
@@ -840,15 +851,23 @@ h6 {
 }
 
 .title-footer {
+
+  background-color:  #bde0fe;
+}
+
+  
+ .title-footer {
+
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #11b28a;
+  background-color: #bde0fe;
   height: 100px;
   width: 100%;
   position: relative;
   text-transform: uppercase;
   text-align: center;
+
 }
 
 .footer-icons {
@@ -867,12 +886,42 @@ h6 {
 
 .footer-links {
   background-color: #11b28a;
+
+ }
+
+ .footer-icons {
+   display: flex;
+   flex-direction:row ;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   background-color: #bde0fe;
+   color: white;
+   max-width: 85%;
+   margin: 0 auto;
+  }
+
+  .footer-icons:hover {
+    cursor: pointer;
+    color: rgb(204, 54, 54);
+  }
+
+ .footer-links ul {
+  background-color: #bde0fe;
+
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-direction: row;
+
   padding: 20px 20px 20px 20px;
   gap: 180px;
+
+
+  padding: 30px 30px 30px 30px;
+  max-width: 85%;
+  margin: 0 auto;
+  }
 
 
 }
