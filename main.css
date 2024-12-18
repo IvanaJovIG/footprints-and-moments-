@@ -521,7 +521,7 @@ button:hover {
 .marijana-footer {
   background-color: rgba(0, 0, 0, 0.5);
   background-image: url('images/posledna.jpg');
-  background-size: cover; 
+  background-size: cover;
   background-position: contain;
   margin: 0;
   padding: 0;
@@ -531,7 +531,7 @@ button:hover {
   color: #161616;
   font-size: 17px;
   font-family: "Montserrat";
-  position: relative; 
+  position: relative;
 }
 
 .logo-img {
@@ -852,11 +852,11 @@ h6 {
 
 .title-footer {
 
-  background-color:  #bde0fe;
+  background-color: #bde0fe;
 }
 
-  
- .title-footer {
+
+.title-footer {
 
   display: flex;
   flex-direction: column;
@@ -887,26 +887,26 @@ h6 {
 .footer-links {
   background-color: #11b28a;
 
- }
+}
 
- .footer-icons {
-   display: flex;
-   flex-direction:row ;
-   flex-wrap: wrap;
-   justify-content: space-around;
-   align-items: center;
-   background-color: #bde0fe;
-   color: white;
-   max-width: 85%;
-   margin: 0 auto;
-  }
+.footer-icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #bde0fe;
+  color: white;
+  max-width: 85%;
+  margin: 0 auto;
+}
 
-  .footer-icons:hover {
-    cursor: pointer;
-    color: rgb(204, 54, 54);
-  }
+.footer-icons:hover {
+  cursor: pointer;
+  color: rgb(204, 54, 54);
+}
 
- .footer-links ul {
+.footer-links ul {
   background-color: #bde0fe;
 
   display: flex;
@@ -921,10 +921,10 @@ h6 {
   padding: 30px 30px 30px 30px;
   max-width: 85%;
   margin: 0 auto;
-  }
-
-
 }
+
+
+
 
 .footer-bottom {
   display: flex;
