@@ -22,3 +22,5 @@ studentName[i].addEventListener('click', (e) => {
   studentName[i].classList.add('js-student-name');
 });
 }
+
+
