@@ -1000,3 +1000,11 @@ h6 {
   flex-direction: column;
   text-align: center;
 }
+
+.student-footer {
+  display: none;
+}
+
+.js-student-footer {
+  display: block;
+}
